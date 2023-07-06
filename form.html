@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grouping Form Controls in HTML</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Name</legend>            
+            Firstname: <input type="text" name="firstname">            
+            Lastname: <input type="text" name="lastname">
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>            
+            <input type="radio" name="gender" value="male"> Male           
+           <input type="radio" name="gender" value="female"> Female
+        </fieldset>
+        <fieldset>
+        	<legend>Hobbies</legend>            
+            <input type="checkbox" name="hobbies" value="soccer"> Soccer
+           <input type="checkbox" name="hobbies" value="cricket"> Cricket
+            <input type="checkbox" name="hobbies" value="baseball"> Baseball
+        </fieldset>
+        <fieldset>
+            <legend>Contact Details</legend>
+           Email Address: <input type="email" name="email">
+            Phone Number: <input type="text" name="phone">
+        </fieldset>
+      <fieldset>
+        
+        <legend>City<legend>
+      <select name="city" id="city">
+        <option value="1">chennai</option>
+        <option value="2">Madurai</option>
+        <option value="3">Coimbatore</option>
+    </select>
+        
+     </fieldset>
+       Address :   <textarea rows="3" cols="30" name="address" id="address"></textarea><hr>
+      <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
